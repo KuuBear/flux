@@ -164,7 +164,7 @@ Flux 默认对部分敏感接口参数 (如邮件验证) 进行 AES-128 加密�
 *   将链接填入 `lib/services/remote_config_service.dart` 的 `_ossUrls` 列表。
 
 ### 第四步：路由规则 (分流)
-*   修改 `routing_rules.json`，同样加密后上传 OSS，并在 `release_config` 中配置链接。
+*   修改 `routing_rules.json`，同样上传 OSS，并在 `release_config` 中配置链接。
 
 ---
 
